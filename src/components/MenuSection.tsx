@@ -5,7 +5,7 @@ import rockyRoad from "@/assets/menu-rocky-road.jpg";
 import redVelvet from "@/assets/menu-red-velvet.jpg";
 import hotChocolate from "@/assets/menu-hot-chocolate.jpg";
 import pasta from "@/assets/menu-pasta.jpg";
-import cappuccino from "@/assets/menu-cappuccino.jpg";
+import cappuccino from "@/assets/cafe-cup.jpeg";
 import brownie from "@/assets/menu-brownie.jpg";
 
 const menuItems = [

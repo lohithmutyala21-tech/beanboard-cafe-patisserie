@@ -70,15 +70,25 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <a
-              href="https://maps.google.com/?q=Bean+Board+Cafe+Kakinada"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-cafe-gold text-cafe-espresso px-6 py-3 text-sm tracking-widest uppercase font-body font-bold hover:bg-cafe-gold-light transition-colors duration-300"
-            >
-              <Navigation size={14} />
-              Get Directions
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <a
+                href="https://wa.me/919030399718?text=Hi%20Bean%20Board%2C%20I%27d%20like%20to%20reserve%20a%20table."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-cafe-gold text-cafe-espresso px-6 py-3 text-sm tracking-widest uppercase font-body font-bold hover:bg-cafe-gold-light transition-colors duration-300"
+              >
+                Reserve Your Table
+              </a>
+              <a
+                href="https://maps.google.com/?q=Bean+Board+Cafe+Kakinada"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-cafe-gold/40 text-cafe-cream px-6 py-3 text-sm tracking-widest uppercase font-body hover:border-cafe-gold hover:text-cafe-gold transition-colors duration-300"
+              >
+                <Navigation size={14} />
+                Get Directions
+              </a>
+            </div>
           </motion.div>
 
           {/* Map embed */}
