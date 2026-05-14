@@ -31,9 +31,12 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a href="#home" className="font-display text-xl md:text-2xl tracking-wide text-cafe-cream">
-          Bean Board
-          <span className="text-cafe-gold ml-1">.</span>
+        <a href="#home" className="flex items-center gap-2">
+          <img
+            src={logo}
+            alt="Bean Board Cafe & Patisserie logo"
+            className="h-10 md:h-12 w-auto object-contain bg-cafe-cream/95 rounded-sm px-2 py-1"
+          />
         </a>
 
         {/* Desktop */}
