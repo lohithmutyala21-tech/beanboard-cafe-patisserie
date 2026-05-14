@@ -71,13 +71,19 @@ const ContactSection = () => {
             </div>
 
             <a
+              href="https://wa.me/919030399718?text=Hi%20Bean%20Board%2C%20I%27d%20like%20to%20reserve%20a%20table."
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden
+            />
+            <a
               href="https://maps.google.com/?q=Bean+Board+Cafe+Kakinada"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-cafe-gold text-cafe-espresso px-6 py-3 text-sm tracking-widest uppercase font-body font-bold hover:bg-cafe-gold-light transition-colors duration-300"
             >
               <Navigation size={14} />
-              Get Directions
+              Reserve Your Table
             </a>
           </motion.div>
 

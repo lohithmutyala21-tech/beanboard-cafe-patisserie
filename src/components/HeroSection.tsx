@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Clock, Star } from "lucide-react";
-import heroBg from "@/assets/hero-cafe.jpg";
+import heroBg from "@/assets/cafe-storefront.jpeg";
 
 const HeroSection = () => {
   return (
@@ -88,13 +88,13 @@ const HeroSection = () => {
             href="#menu"
             className="bg-cafe-gold text-cafe-espresso px-8 py-3 text-sm tracking-widest uppercase font-body font-bold hover:bg-cafe-gold-light transition-colors duration-300"
           >
-            Explore Menu
+            Explore Signature Menu
           </a>
           <a
             href="#contact"
             className="border border-cafe-cream/30 text-cafe-cream px-8 py-3 text-sm tracking-widest uppercase font-body hover:border-cafe-gold hover:text-cafe-gold transition-colors duration-300"
           >
-            Visit Us
+            Visit Our Cafe
           </a>
         </motion.div>
       </div>
